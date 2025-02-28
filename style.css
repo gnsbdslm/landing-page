@@ -1,3 +1,16 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.body {
+    flex: 1;
+}
+
 .top-nav-bar {
     display: flex;
     justify-content: space-between;
@@ -5,9 +18,64 @@
 
 .header-body {
     display: flex;
+    gap: 32px;
+    justify-content: center;
 }
 
-ul{
+.container {
+    width: 300px;
+}
+
+.image-placeholder {
+    width: 500px;
+    text-align: center;
+    align-self: center;
+}
+
+#info {
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    width: 200px;
+}
+
+.img-container {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    justify-self: center;
+}
+
+.quote {
+    width: 600px;
+    justify-self: center;
+    margin-bottom: 16px;
+}
+
+#initials {
+    justify-self: right;
+    margin: 0;
+}
+
+.sign-up-bar {
+    display: flex;
+    gap: 128px;
+    justify-content: center;
+}
+
+.sign-up-bottom {
+    align-self: center;
+}
+
+
+
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -15,6 +83,6 @@ ul{
     gap: 1em;
 }
 
-a{
+a {
     text-decoration: none;
 }
