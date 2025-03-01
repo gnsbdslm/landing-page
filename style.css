@@ -7,12 +7,14 @@ body {
 .header-container {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
 }
 
 .hero {
     display: flex;
     justify-content: center;
     gap: 128px;
+    background-color: #1F2937;
 }
 
 #info {
@@ -60,4 +62,27 @@ body {
 
 .footer {
     text-align: center;
+}
+
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left-nav p {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.right-nav {
+    align-self: center;
 }
