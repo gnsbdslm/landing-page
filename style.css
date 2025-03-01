@@ -1,35 +1,18 @@
 body {
     font-family: Roboto, sans-serif;
-    display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0;
-    height: 100vh;
 }
 
-.body {
-    flex: 1;
-}
-
-.top-nav-bar {
+.header-container {
     display: flex;
     justify-content: space-between;
 }
 
-.header-body {
+.hero {
     display: flex;
-    gap: 32px;
     justify-content: center;
-}
-
-.container {
-    width: 300px;
-}
-
-.image-placeholder {
-    width: 500px;
-    text-align: center;
-    align-self: center;
+    gap: 128px;
 }
 
 #info {
@@ -39,50 +22,42 @@ body {
 .items {
     display: flex;
     justify-content: center;
+    gap: 32px;
 }
 
 .item {
-    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 180px;
 }
 
 .img-container {
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
-    justify-self: center;
+    background-color: burlywood;
+    height: 120px;
+    width: 120px;
 }
 
 .quote {
-    width: 600px;
+    width: 700px;
     justify-self: center;
-    margin-bottom: 16px;
 }
 
-#initials {
-    justify-self: right;
-    margin: 0;
+.author {
+    text-align: end;
 }
 
 .sign-up-bar {
     display: flex;
-    gap: 128px;
     justify-content: center;
+    gap: 64px;
 }
 
 .sign-up-bottom {
     align-self: center;
 }
 
-
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    gap: 1em;
-}
-
-a {
-    text-decoration: none;
+.footer {
+    text-align: center;
 }
