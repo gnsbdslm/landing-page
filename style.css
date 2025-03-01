@@ -13,8 +13,10 @@ body {
 .hero {
     display: flex;
     justify-content: center;
-    gap: 128px;
+    gap: 64px;
     background-color: #1F2937;
+    padding-top: 36px;
+    padding-bottom: 80px;
 }
 
 #info {
@@ -102,4 +104,24 @@ a {
     font-size: 18px;
     color: #e5e7eb;
     margin: 0;
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    width: 400px;
+    height: 201px;
+    align-self: center;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 16px;
+    font-size: 14px;
+    font-weight: 700;
 }
