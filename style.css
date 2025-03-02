@@ -95,7 +95,26 @@ body {
 .sign-up-bar {
     display: flex;
     justify-content: center;
-    gap: 64px;
+    width: 800px;
+    justify-self: center;
+    gap: 8em;
+    background-color: #3882f6;
+    padding: 24px 8px;
+    border-radius: 8px;
+}
+
+.sign-up-section {
+    padding: 80px 0;
+}
+
+.card-title {
+    margin: 0;
+    color: #f9faf8;
+}
+
+.card-content {
+    margin: 0;
+    color: #f9faf8;
 }
 
 .sign-up-bottom {
@@ -105,7 +124,6 @@ body {
 .footer {
     text-align: center;
 }
-
 
 ul {
     list-style: none;
@@ -165,6 +183,17 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 4px;
+    padding: 6px 16px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.sign-up-bottom button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: 2px solid #f9faf8;
+    cursor: pointer;
+    border-radius: 6px;
     padding: 6px 16px;
     font-size: 14px;
     font-weight: 700;
