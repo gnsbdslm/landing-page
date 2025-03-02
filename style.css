@@ -65,13 +65,17 @@ body {
     padding: 32px 0;
 }
 
-.quote {
-    width: 700px;
-    justify-self: center;
+.this-quote {
+    text-align: start;
 }
 
 .author {
     text-align: end;
+}
+
+.quote-container {
+    width: 700px;
+    justify-self: center;
 }
 
 .sign-up-bar {
